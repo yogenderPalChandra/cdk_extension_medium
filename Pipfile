@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+"aws-cdk-lib" = "*"
+constructs = "*"
+
+[dev-packages]
+pylint = "*"
+pylint-quotes = "*"
+mypy = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+pipenv-setup = "*"
+
+[requires]
+python_version = "3.10"

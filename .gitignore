@@ -1,0 +1,13 @@
+# folders
+*.egg-info
+dist
+.pytest_cache
+test-reports
+cdk.out
+
+# files
+*.pyc
+.ropeproject
+.coverage
+cdk.json
+synth.py
